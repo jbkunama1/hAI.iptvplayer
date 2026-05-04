@@ -1,0 +1,12 @@
+# Docker / Portainer
+.dockerenv
+docker-compose.override.yml
+stack.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
