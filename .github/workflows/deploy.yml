@@ -1,0 +1,27 @@
+name: Deploy Portainer Stack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      PORTAINER_URL: ${{ secrets.PORTAINER_URL }}
+      PORTAINER_TOKEN: ${{ secrets.PORTAINER_TOKEN }}
+      STACK_NAME: iptvnator
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy stack to Portainer
+        uses: cssnr/portainer-stack-deploy-action@v1
+        with:
+          token: ${{ env.PORTAINER_TOKEN }}
+          url: ${{ env.PORTAINER_URL }}
+          name: ${{ env.STACK_NAME }}
+          file: docker-compose.yml
