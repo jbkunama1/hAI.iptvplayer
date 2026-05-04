@@ -2,8 +2,8 @@
 
 ![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator/latest?logo=docker&label=iptvnator)
 ![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator-backend/latest?logo=docker&label=backend)
-![Build Status](https://github.com/[DEIN-BENUTZER]/iptvnator-portainer/actions/workflows/deploy.yml/badge.svg)
-![M3U Update](https://github.com/[DEIN-BENUTZER]/iptvnator-portainer/actions/workflows/generate_m3u.yml/badge.svg)
+![Build Status](https://github.com/jbkunama1/iptvnator-portainer/actions/workflows/deploy.yml/badge.svg)
+![M3U Update](https://github.com/jbkunama1/iptvnator-portainer/actions/workflows/generate_m3u.yml/badge.svg)
 
 Selbstgehosteter IPTV‑Player mit Web‑Frontend und Backend als Docker‑Stack für Portainer.  
 Basierend auf [`4gray/iptvnator`](https://github.com/4gray/iptvnator) und [`4gray/iptvnator-backend`](https://github.com/4gray/iptvnator-backend). [web:1][web:2][web:11][web:14]
