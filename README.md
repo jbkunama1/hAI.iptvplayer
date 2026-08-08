@@ -1,7 +1,7 @@
 # IPTVnator Docker Stack für Portainer
 
-![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator/latest?logo=docker&label=iptvnator)
-![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator-backend/latest?logo=docker&label=backend)
+[![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator/latest?logo=docker&label=iptvnator)](https://github.com/jbkunama1/hAI.iptvplayer)
+[![Docker Image Version](https://img.shields.io/docker/v/4gray/iptvnator-backend/latest?logo=docker&label=backend)](https://github.com/jbkunama1/hAI.iptvplayer)
 ![Build Status](https://github.com/jbkunama1/iptvnator-portainer/actions/workflows/deploy.yml/badge.svg)
 ![M3U Update](https://github.com/jbkunama1/iptvnator-portainer/actions/workflows/generate_m3u.yml/badge.svg)
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/highfish)
